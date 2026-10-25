@@ -1,0 +1,142 @@
+<!-- gallery.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | KC Catering</title>
+  <meta name="description" content="Sample gallery of KC Catering events. Circular image masks with placeholder content.">
+  <meta property="og:title" content="Gallery – KC Catering">
+  <meta property="og:description" content="Circular masked gallery. Sample images.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/kccatering/gallery">
+  <meta property="og:image" content="https://via.placeholder.com/1200x630?text=Gallery">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%23F6B6DB'/%3E%3Ctext x='50' y='64' font-size='38' text-anchor='middle' fill='%23121212' font-family='Georgia,serif' font-weight='bold'%3EKC%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="demo-bar text-center py-2 px-3" id="demoBar">
+    <div class="container d-flex align-items-center justify-content-between flex-wrap gap-2">
+      <span class="small mb-0">Design concept for <strong>KC Catering</strong>. Not the official website. Sample content.</span>
+      <button class="btn btn-sm btn-outline-light rounded-pill" id="dismissDemoBar" aria-label="Dismiss demo bar"><i class="fa-regular fa-circle-xmark"></i></button>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg sticky-top shadow-sm" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <span class="brand-rings" aria-hidden="true"><svg viewBox="0 0 60 60" width="40" height="40"><circle cx="24" cy="30" r="18" fill="none" stroke="#F6B6DB" stroke-width="3"/><circle cx="36" cy="30" r="18" fill="none" stroke="#121212" stroke-width="3"/></svg></span>
+        <span class="brand-text">KC <span class="script-accent">Catering</span></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-1 align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="packages.html">Packages</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-lg-2 mt-2 mt-lg-0"><a class="btn btn-rose rounded-pill px-4" href="quote.html"><i class="fa-regular fa-envelope me-1"></i> Request quote</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main">
+    <section class="py-5 section-white">
+      <div class="container">
+        <h1 class="display-3 mb-3">Gallery</h1>
+        <p class="lead text-muted-soft mb-5">Sample gallery. Circular masks ready for real photos.</p>
+
+        <div class="row g-4 justify-content-center">
+          <div class="col-6 col-md-4">
+            <div class="circle-frame">
+              <div class="circle-inner"><i class="fa-regular fa-image fa-3x"></i><span class="small">Sample</span></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="circle-frame">
+              <div class="circle-inner"><i class="fa-regular fa-image fa-3x"></i><span class="small">Sample</span></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="circle-frame">
+              <div class="circle-inner"><i class="fa-regular fa-image fa-3x"></i><span class="small">Sample</span></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="circle-frame">
+              <div class="circle-inner"><i class="fa-regular fa-image fa-3x"></i><span class="small">Sample</span></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="circle-frame">
+              <div class="circle-inner"><i class="fa-regular fa-image fa-3x"></i><span class="small">Sample</span></div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="circle-frame">
+              <div class="circle-inner"><i class="fa-regular fa-image fa-3x"></i><span class="small">Sample</span></div>
+            </div>
+          </div>
+        </div>
+        <p class="small text-muted mt-4"><i class="fa-regular fa-circle-info me-1"></i> All images are placeholders for this design concept.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-ink text-petal pt-5 pb-4">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="d-flex align-items-center gap-2 mb-2">
+            <svg viewBox="0 0 60 60" width="36" height="36"><circle cx="24" cy="30" r="18" fill="none" stroke="#F6B6DB" stroke-width="3"/><circle cx="36" cy="30" r="18" fill="none" stroke="#FFFFFF" stroke-width="3"/></svg>
+            <span class="fw-bold text-white">KC Catering</span>
+          </div>
+          <p class="small text-petal-muted">Sample content for demonstration only. Not the official website.</p>
+          <p class="small text-petal-muted">Concept web design by Tesseract Cloud Technologies, Port Moresby.</p>
+        </div>
+        <div class="col-md-4">
+          <h6 class="fw-semibold text-white">Quick links</h6>
+          <ul class="list-unstyled small">
+            <li><a href="index.html" class="text-petal-muted text-decoration-none">Home</a></li>
+            <li><a href="menu.html" class="text-petal-muted text-decoration-none">Menu</a></li>
+            <li><a href="packages.html" class="text-petal-muted text-decoration-none">Packages</a></li>
+            <li><a href="gallery.html" class="text-petal-muted text-decoration-none">Gallery</a></li>
+            <li><a href="quote.html" class="text-petal-muted text-decoration-none">Request quote</a></li>
+            <li><a href="contact.html" class="text-petal-muted text-decoration-none">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h6 class="fw-semibold text-white">Contact (placeholder)</h6>
+          <p class="small text-petal-muted mb-1"><i class="fa-solid fa-phone me-2"></i>+675 123 4567</p>
+          <p class="small text-petal-muted"><i class="fa-solid fa-envelope me-2"></i>hello@example.com</p>
+          <p class="small text-petal-muted"><i class="fa-solid fa-location-dot me-2"></i>Port Moresby</p>
+        </div>
+      </div>
+      <hr class="border-petal opacity-25 mt-4">
+      <div class="d-flex flex-wrap justify-content-between align-items-center small text-petal-muted">
+        <span>© 2025 KC Catering Demo. All placeholder content.</span>
+        <span>Concept design – not official</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="mobile-action-bar d-block d-sm-none fixed-bottom bg-white border-top shadow-sm py-2">
+    <div class="container d-flex justify-content-around">
+      <a href="menu.html" class="btn btn-rose rounded-pill px-3 py-2" aria-label="Browse menu"><i class="fa-solid fa-utensils me-1"></i> Menu</a>
+      <a href="https://wa.me/67512345678?text=Hello%20KC%20Catering%20demo" class="btn btn-success rounded-pill px-3 py-2" aria-label="WhatsApp us"><i class="fa-brands fa-whatsapp me-1"></i> WhatsApp</a>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
